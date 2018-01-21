@@ -1,0 +1,21 @@
+{
+    "name": "GL Qr Code",
+    "version": "0.1.0.19",
+    "manifest_version": 2,
+    "description": "Plain qrcode generator.",
+
+    "icons": {
+        "64": "icons/glqrcode_64.png",
+        "128": "icons/glqrcode_128.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/glqrcode_19.png",
+        "default_title": "GL Qr Code Gen",
+        "default_popup": "qrcode.html"
+    }
+}
